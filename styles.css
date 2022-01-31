@@ -1,15 +1,16 @@
 
+    /* Top of page config */
    *{
     box-sizing: border-box;
     }
-
+ /* whole page fonts*/
   body {
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     background-image: url("https://ibb.co/VTNyCSs");
     background: #f1f1f1;
   }
-  
+  /* specific for types of headers*/
   .header {
     padding: 30px;
     text-align: center;
@@ -48,27 +49,27 @@
     color: black;
   }
   
-
+/*left side */
   .leftcolumn {   
     float: left;
     width: 75%;
   }
   
- 
+ /* right side*/
   .rightcolumn {
     float: left;
     width: 25%;
     background-color: #f1f1f1;
     padding-left: 20px;
   }
-  
+  /*this is for each card used in each column (learned from w3) */
   .card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
   }
   
- 
+ /* helps smooth distance between cards*/
   .row:after {
     content: "";
     display: table;
