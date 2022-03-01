@@ -76,6 +76,11 @@
     clear: both;
   }
   
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
 
   
   /* W3SCHOOLS */
